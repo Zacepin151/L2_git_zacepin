@@ -1,7 +1,6 @@
 import random
 
 def guess_number_game():
-    # Генерируем случайное число от 0 до 10
     target_number = random.randint(0, 10)
     attempts = 3
 
@@ -24,6 +23,5 @@ def guess_number_game():
 
     print(f"К сожалению, вы не угадали число. Загаданное число было {target_number}.")
 
-# Пример использования
 if __name__ == "__main__":
     guess_number_game()
